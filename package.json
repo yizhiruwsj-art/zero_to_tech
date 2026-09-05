@@ -1,21 +1,16 @@
 {
-  "name": "2zero2tech",
-  "version": "1.0.0",
+  "name": "zero-to-tech-4-5",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^6.1.1",
-    "vite": "^8.2.2"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "animejs": "^4.5.0",
-    "lodash": "^4.18.1",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "animejs": "^4.4.1",
+    "next": "^15.0.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   }
 }
